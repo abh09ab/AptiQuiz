@@ -1,0 +1,42 @@
+services:
+  # Backend API & Socket.IO Multiplayer Server
+  server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    container_name: aptitude-arena-server
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - NODE_ENV=production
+      # Provide your Google Gemini API key here or via .env file
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+    networks:
+      - aptitude-network
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:3000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 5s
+
+  # Frontend 3D Vite React Application
+  frontend:
+    build:
+      context: ./frontended
+      dockerfile: Dockerfile
+    container_name: aptitude-arena-frontend
+    restart: unless-stopped
+    ports:
+      - "5173:5173"
+    depends_on:
+      server:
+        condition: service_healthy
+    networks:
+      - aptitude-network
+
+networks:
+  aptitude-network:
+    driver: bridge

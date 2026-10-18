@@ -1,0 +1,1580 @@
+[
+  {
+    "id": "q1",
+    "category": "Quantitative Aptitude",
+    "difficulty": "Easy",
+    "question": "What is 25% of 400?",
+    "options": [
+      {
+        "id": "a",
+        "text": "50"
+      },
+      {
+        "id": "b",
+        "text": "100"
+      },
+      {
+        "id": "c",
+        "text": "150"
+      },
+      {
+        "id": "d",
+        "text": "200"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "25% of 400 = 0.25 × 400 = 100."
+  },
+  {
+    "id": "q2",
+    "category": "Quantitative Aptitude",
+    "difficulty": "Easy",
+    "question": "Find 10% of 1500.",
+    "options": [
+      {
+        "id": "a",
+        "text": "100"
+      },
+      {
+        "id": "b",
+        "text": "125"
+      },
+      {
+        "id": "c",
+        "text": "150"
+      },
+      {
+        "id": "d",
+        "text": "200"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "10% of 1500 = 0.10 × 1500 = 150."
+  },
+  {
+    "id": "q3",
+    "category": "Quantitative Aptitude",
+    "difficulty": "Easy",
+    "question": "If 20% of a number is 80, what is the number?",
+    "options": [
+      {
+        "id": "a",
+        "text": "200"
+      },
+      {
+        "id": "b",
+        "text": "300"
+      },
+      {
+        "id": "c",
+        "text": "400"
+      },
+      {
+        "id": "d",
+        "text": "500"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "The number is 80 / 0.20 = 400."
+  },
+  {
+    "id": "q4",
+    "category": "Quantitative Aptitude",
+    "difficulty": "Medium",
+    "question": "A train 150 meters long passes a telegraph pole in 12 seconds. What is the speed of the train in km/h?",
+    "options": [
+      {
+        "id": "a",
+        "text": "40 km/h"
+      },
+      {
+        "id": "b",
+        "text": "45 km/h"
+      },
+      {
+        "id": "c",
+        "text": "50 km/h"
+      },
+      {
+        "id": "d",
+        "text": "60 km/h"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Speed = 150/12 = 12.5 m/s = 12.5 × (18/5) = 45 km/h."
+  },
+  {
+    "id": "q5",
+    "category": "Quantitative Aptitude",
+    "difficulty": "Medium",
+    "question": "A article is bought for ₹600 and sold for ₹750. What is the profit percentage?",
+    "options": [
+      {
+        "id": "a",
+        "text": "20%"
+      },
+      {
+        "id": "b",
+        "text": "22.5%"
+      },
+      {
+        "id": "c",
+        "text": "25%"
+      },
+      {
+        "id": "d",
+        "text": "30%"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Profit = 750 - 600 = 150. Profit % = (150/600) × 100 = 25%."
+  },
+  {
+    "id": "q6",
+    "category": "Logical Reasoning",
+    "difficulty": "Easy",
+    "question": "Find the missing number in the series: 3, 7, 15, 31, 63, ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "95"
+      },
+      {
+        "id": "b",
+        "text": "111"
+      },
+      {
+        "id": "c",
+        "text": "127"
+      },
+      {
+        "id": "d",
+        "text": "129"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Pattern: Each number is (Previous × 2) + 1. (63 × 2) + 1 = 127."
+  },
+  {
+    "id": "q7",
+    "category": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "If 'ORANGE' is coded as 'PSBOHF', how is 'APPLE' coded in the same pattern?",
+    "options": [
+      {
+        "id": "a",
+        "text": "BQQMF"
+      },
+      {
+        "id": "b",
+        "text": "BRQMF"
+      },
+      {
+        "id": "c",
+        "text": "BPQME"
+      },
+      {
+        "id": "d",
+        "text": "BQQND"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Each letter is shifted forward by +1 position. A->B, P->Q, P->Q, L->M, E->F."
+  },
+  {
+    "id": "q8",
+    "category": "Logical Reasoning",
+    "difficulty": "Easy",
+    "question": "Pointing to a photograph, Rohit said, 'She is the mother of my father's only daughter.' How is the woman related to Rohit?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sister"
+      },
+      {
+        "id": "b",
+        "text": "Mother"
+      },
+      {
+        "id": "c",
+        "text": "Grandmother"
+      },
+      {
+        "id": "d",
+        "text": "Aunt"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Rohit's father's only daughter is Rohit's sister. Her mother is Rohit's mother."
+  },
+  {
+    "id": "q9",
+    "category": "Verbal Ability",
+    "difficulty": "Easy",
+    "question": "Select the word that is most nearly SYNONYMOUS to 'Prudent':",
+    "options": [
+      {
+        "id": "a",
+        "text": "Careless"
+      },
+      {
+        "id": "b",
+        "text": "Wise"
+      },
+      {
+        "id": "c",
+        "text": "Hasty"
+      },
+      {
+        "id": "d",
+        "text": "Stubborn"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Prudent' means showing care and thought for the future; wise or cautious."
+  },
+  {
+    "id": "q10",
+    "category": "Verbal Ability",
+    "difficulty": "Easy",
+    "question": "Choose the word OPPOSITE in meaning to 'Fragile':",
+    "options": [
+      {
+        "id": "a",
+        "text": "Delicate"
+      },
+      {
+        "id": "b",
+        "text": "Robust"
+      },
+      {
+        "id": "c",
+        "text": "Brittle"
+      },
+      {
+        "id": "d",
+        "text": "Slender"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Fragile' means easily broken. 'Robust' means strong and sturdy."
+  },
+  {
+    "id": "q11",
+    "category": "Quantitative Aptitude",
+    "difficulty": "Hard",
+    "question": "A and B can do a piece of work in 12 days, B and C in 15 days, and C and A in 20 days. In how many days can A alone finish the work?",
+    "options": [
+      {
+        "id": "a",
+        "text": "20 days"
+      },
+      {
+        "id": "b",
+        "text": "30 days"
+      },
+      {
+        "id": "c",
+        "text": "40 days"
+      },
+      {
+        "id": "d",
+        "text": "60 days"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "2(A+B+C) work rate = 1/12 + 1/15 + 1/20 = 12/60 = 1/5. So A+B+C = 1/10. A's rate = 1/10 - 1/15 = 1/30. A takes 30 days."
+  },
+  {
+    "id": "q12",
+    "category": "Data Interpretation",
+    "difficulty": "Medium",
+    "question": "If Company X produced 40,000 units in 2024 and production increased by 15% in 2025, what was the total production in 2025?",
+    "options": [
+      {
+        "id": "a",
+        "text": "44,000 units"
+      },
+      {
+        "id": "b",
+        "text": "46,000 units"
+      },
+      {
+        "id": "c",
+        "text": "48,000 units"
+      },
+      {
+        "id": "d",
+        "text": "50,000 units"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "2025 Production = 40,000 × 1.15 = 46,000 units."
+  },
+  {
+    "id": "q13",
+    "category": "Logical Reasoning",
+    "difficulty": "Medium",
+    "question": "In a row of 35 students, Priya is 12th from the left end. What is her position from the right end?",
+    "options": [
+      {
+        "id": "a",
+        "text": "23rd"
+      },
+      {
+        "id": "b",
+        "text": "24th"
+      },
+      {
+        "id": "c",
+        "text": "25th"
+      },
+      {
+        "id": "d",
+        "text": "26th"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Position from right = (Total - Position from left) + 1 = (35 - 12) + 1 = 24th."
+  },
+  {
+    "id": "q14",
+    "category": "Verbal Ability",
+    "difficulty": "Medium",
+    "question": "Fill in the blank: 'The manager insisted ____ having the weekly report submitted before Friday noon.'",
+    "options": [
+      {
+        "id": "a",
+        "text": "at"
+      },
+      {
+        "id": "b",
+        "text": "on"
+      },
+      {
+        "id": "c",
+        "text": "for"
+      },
+      {
+        "id": "d",
+        "text": "in"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The correct preposition following 'insisted' is 'on'."
+  },
+  {
+    "id": "q15",
+    "category": "Quantitative Aptitude",
+    "difficulty": "Medium",
+    "question": "The average age of 5 employees is 28 years. If a new manager aged 40 joins, what is the new average age?",
+    "options": [
+      {
+        "id": "a",
+        "text": "29 years"
+      },
+      {
+        "id": "b",
+        "text": "30 years"
+      },
+      {
+        "id": "c",
+        "text": "31 years"
+      },
+      {
+        "id": "d",
+        "text": "32 years"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Initial sum = 5 × 28 = 140. New sum = 140 + 40 = 180. New average = 180 / 6 = 30 years."
+  },
+  {
+    "id": "ai_1791628973250_1",
+    "category": "Quantitative Aptitude",
+    "difficulty": "Hard",
+    "question": "Calculate 10% of 660.",
+    "options": [
+      {
+        "id": "a",
+        "text": "116"
+      },
+      {
+        "id": "b",
+        "text": "66"
+      },
+      {
+        "id": "c",
+        "text": "50"
+      },
+      {
+        "id": "d",
+        "text": "132"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "10% of 660 = (10/100) × 660 = 66."
+  },
+  {
+    "id": "ai_1791628973250_2",
+    "category": "Quantitative Aptitude",
+    "difficulty": "Medium",
+    "question": "Calculate 30% of 200.",
+    "options": [
+      {
+        "id": "a",
+        "text": "110"
+      },
+      {
+        "id": "b",
+        "text": "60"
+      },
+      {
+        "id": "c",
+        "text": "50"
+      },
+      {
+        "id": "d",
+        "text": "120"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "30% of 200 = (30/100) × 200 = 60."
+  },
+  {
+    "id": "ai_1791628973250_3",
+    "category": "Quantitative Aptitude",
+    "difficulty": "Hard",
+    "question": "Calculate 50% of 210.",
+    "options": [
+      {
+        "id": "a",
+        "text": "155"
+      },
+      {
+        "id": "b",
+        "text": "105"
+      },
+      {
+        "id": "c",
+        "text": "55"
+      },
+      {
+        "id": "d",
+        "text": "210"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "50% of 210 = (50/100) × 210 = 105."
+  },
+  {
+    "id": "ai_1791628973250_4",
+    "category": "Quantitative Aptitude",
+    "difficulty": "Medium",
+    "question": "Calculate 40% of 390.",
+    "options": [
+      {
+        "id": "a",
+        "text": "206"
+      },
+      {
+        "id": "b",
+        "text": "156"
+      },
+      {
+        "id": "c",
+        "text": "106"
+      },
+      {
+        "id": "d",
+        "text": "312"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "40% of 390 = (40/100) × 390 = 156."
+  },
+  {
+    "id": "ai_1791628973250_5",
+    "category": "Quantitative Aptitude",
+    "difficulty": "Hard",
+    "question": "Calculate 30% of 750.",
+    "options": [
+      {
+        "id": "a",
+        "text": "275"
+      },
+      {
+        "id": "b",
+        "text": "225"
+      },
+      {
+        "id": "c",
+        "text": "175"
+      },
+      {
+        "id": "d",
+        "text": "450"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "30% of 750 = (30/100) × 750 = 225."
+  },
+  {
+    "id": "ai_1791629422495_1",
+    "category": "Quantitative Aptitude",
+    "difficulty": "Hard",
+    "question": "Calculate 10% of 810.",
+    "options": [
+      {
+        "id": "a",
+        "text": "131"
+      },
+      {
+        "id": "b",
+        "text": "81"
+      },
+      {
+        "id": "c",
+        "text": "50"
+      },
+      {
+        "id": "d",
+        "text": "162"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "10% of 810 = (10/100) × 810 = 81."
+  },
+  {
+    "id": "ai_1791629422495_2",
+    "category": "Quantitative Aptitude",
+    "difficulty": "Medium",
+    "question": "Calculate 25% of 820.",
+    "options": [
+      {
+        "id": "a",
+        "text": "255"
+      },
+      {
+        "id": "b",
+        "text": "205"
+      },
+      {
+        "id": "c",
+        "text": "155"
+      },
+      {
+        "id": "d",
+        "text": "410"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "25% of 820 = (25/100) × 820 = 205."
+  },
+  {
+    "id": "ai_1791629422495_3",
+    "category": "Quantitative Aptitude",
+    "difficulty": "Hard",
+    "question": "Calculate 25% of 840.",
+    "options": [
+      {
+        "id": "a",
+        "text": "260"
+      },
+      {
+        "id": "b",
+        "text": "210"
+      },
+      {
+        "id": "c",
+        "text": "160"
+      },
+      {
+        "id": "d",
+        "text": "420"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "25% of 840 = (25/100) × 840 = 210."
+  },
+  {
+    "id": "ai_1791629422495_4",
+    "category": "Quantitative Aptitude",
+    "difficulty": "Medium",
+    "question": "Calculate 10% of 610.",
+    "options": [
+      {
+        "id": "a",
+        "text": "111"
+      },
+      {
+        "id": "b",
+        "text": "61"
+      },
+      {
+        "id": "c",
+        "text": "50"
+      },
+      {
+        "id": "d",
+        "text": "122"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "10% of 610 = (10/100) × 610 = 61."
+  },
+  {
+    "id": "ai_1791629422495_5",
+    "category": "Quantitative Aptitude",
+    "difficulty": "Hard",
+    "question": "Calculate 25% of 690.",
+    "options": [
+      {
+        "id": "a",
+        "text": "222.5"
+      },
+      {
+        "id": "b",
+        "text": "172.5"
+      },
+      {
+        "id": "c",
+        "text": "122.5"
+      },
+      {
+        "id": "d",
+        "text": "345"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "25% of 690 = (25/100) × 690 = 172.5."
+  },
+  {
+    "id": "pyq_tcs_1",
+    "company": "TCS NQT",
+    "year": "2024",
+    "category": "Quantitative Aptitude",
+    "topic": "Time and Work",
+    "difficulty": "Medium",
+    "question": "A can complete a piece of work in 12 days and B can do it in 18 days. They worked together for 4 days, and then A left. How many more days will B take to finish the remaining work alone?",
+    "options": [
+      {
+        "id": "a",
+        "text": "6 days"
+      },
+      {
+        "id": "b",
+        "text": "8 days"
+      },
+      {
+        "id": "c",
+        "text": "10 days"
+      },
+      {
+        "id": "d",
+        "text": "12 days"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A's 1 day work = 1/12, B's 1 day work = 1/18. Together in 1 day = 1/12 + 1/18 = 5/36. In 4 days, work done = 4 × (5/36) = 20/36 = 5/9. Remaining work = 1 - 5/9 = 4/9. Time taken by B alone = (4/9) / (1/18) = (4/9) × 18 = 8 days."
+  },
+  {
+    "id": "ai_template_1792299942018_1",
+    "company": "TCS NQT",
+    "year": "2024",
+    "category": "Quantitative Aptitude",
+    "topic": "Percentages & Arithmetic",
+    "difficulty": "Hard",
+    "question": "[TCS NQT PYQ Pattern] Calculate 50% of 540.",
+    "options": [
+      {
+        "id": "a",
+        "text": "320"
+      },
+      {
+        "id": "b",
+        "text": "270"
+      },
+      {
+        "id": "c",
+        "text": "220"
+      },
+      {
+        "id": "d",
+        "text": "540"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "50% of 540 = (50/100) × 540 = 270."
+  },
+  {
+    "id": "ai_template_1792300227862_1",
+    "company": "TCS NQT",
+    "year": "2024",
+    "category": "Quantitative Aptitude",
+    "topic": "Percentages & Arithmetic",
+    "difficulty": "Hard",
+    "question": "[TCS NQT PYQ Pattern] Calculate 30% of 980.",
+    "options": [
+      {
+        "id": "a",
+        "text": "344"
+      },
+      {
+        "id": "b",
+        "text": "294"
+      },
+      {
+        "id": "c",
+        "text": "244"
+      },
+      {
+        "id": "d",
+        "text": "588"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "30% of 980 = (30/100) × 980 = 294."
+  },
+  {
+    "id": "ai_template_1792300227862_2",
+    "company": "TCS NQT",
+    "year": "2024",
+    "category": "Quantitative Aptitude",
+    "topic": "Percentages & Arithmetic",
+    "difficulty": "Medium",
+    "question": "[TCS NQT PYQ Pattern] Calculate 20% of 840.",
+    "options": [
+      {
+        "id": "a",
+        "text": "218"
+      },
+      {
+        "id": "b",
+        "text": "168"
+      },
+      {
+        "id": "c",
+        "text": "118"
+      },
+      {
+        "id": "d",
+        "text": "336"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "20% of 840 = (20/100) × 840 = 168."
+  },
+  {
+    "id": "ai_template_1792300227862_3",
+    "company": "TCS NQT",
+    "year": "2024",
+    "category": "Quantitative Aptitude",
+    "topic": "Percentages & Arithmetic",
+    "difficulty": "Hard",
+    "question": "[TCS NQT PYQ Pattern] Calculate 15% of 870.",
+    "options": [
+      {
+        "id": "a",
+        "text": "180.5"
+      },
+      {
+        "id": "b",
+        "text": "130.5"
+      },
+      {
+        "id": "c",
+        "text": "80.5"
+      },
+      {
+        "id": "d",
+        "text": "261"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "15% of 870 = (15/100) × 870 = 130.5."
+  },
+  {
+    "id": "ai_template_1792300227862_4",
+    "company": "TCS NQT",
+    "year": "2024",
+    "category": "Quantitative Aptitude",
+    "topic": "Percentages & Arithmetic",
+    "difficulty": "Medium",
+    "question": "[TCS NQT PYQ Pattern] Calculate 50% of 570.",
+    "options": [
+      {
+        "id": "a",
+        "text": "335"
+      },
+      {
+        "id": "b",
+        "text": "285"
+      },
+      {
+        "id": "c",
+        "text": "235"
+      },
+      {
+        "id": "d",
+        "text": "570"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "50% of 570 = (50/100) × 570 = 285."
+  },
+  {
+    "id": "ai_template_1792300227862_5",
+    "company": "TCS NQT",
+    "year": "2024",
+    "category": "Quantitative Aptitude",
+    "topic": "Percentages & Arithmetic",
+    "difficulty": "Hard",
+    "question": "[TCS NQT PYQ Pattern] Calculate 50% of 870.",
+    "options": [
+      {
+        "id": "a",
+        "text": "485"
+      },
+      {
+        "id": "b",
+        "text": "435"
+      },
+      {
+        "id": "c",
+        "text": "385"
+      },
+      {
+        "id": "d",
+        "text": "870"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "50% of 870 = (50/100) × 870 = 435."
+  },
+  {
+    "id": "ai_template_1792300227862_6",
+    "company": "TCS NQT",
+    "year": "2024",
+    "category": "Quantitative Aptitude",
+    "topic": "Percentages & Arithmetic",
+    "difficulty": "Medium",
+    "question": "[TCS NQT PYQ Pattern] Calculate 15% of 540.",
+    "options": [
+      {
+        "id": "a",
+        "text": "131"
+      },
+      {
+        "id": "b",
+        "text": "81"
+      },
+      {
+        "id": "c",
+        "text": "50"
+      },
+      {
+        "id": "d",
+        "text": "162"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "15% of 540 = (15/100) × 540 = 81."
+  },
+  {
+    "id": "ai_template_1792300227862_7",
+    "company": "TCS NQT",
+    "year": "2024",
+    "category": "Quantitative Aptitude",
+    "topic": "Percentages & Arithmetic",
+    "difficulty": "Hard",
+    "question": "[TCS NQT PYQ Pattern] Calculate 15% of 620.",
+    "options": [
+      {
+        "id": "a",
+        "text": "143"
+      },
+      {
+        "id": "b",
+        "text": "93"
+      },
+      {
+        "id": "c",
+        "text": "50"
+      },
+      {
+        "id": "d",
+        "text": "186"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "15% of 620 = (15/100) × 620 = 93."
+  },
+  {
+    "id": "ai_template_1792300227862_8",
+    "company": "TCS NQT",
+    "year": "2024",
+    "category": "Quantitative Aptitude",
+    "topic": "Percentages & Arithmetic",
+    "difficulty": "Medium",
+    "question": "[TCS NQT PYQ Pattern] Calculate 50% of 960.",
+    "options": [
+      {
+        "id": "a",
+        "text": "530"
+      },
+      {
+        "id": "b",
+        "text": "480"
+      },
+      {
+        "id": "c",
+        "text": "430"
+      },
+      {
+        "id": "d",
+        "text": "960"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "50% of 960 = (50/100) × 960 = 480."
+  },
+  {
+    "id": "ai_template_1792300227862_9",
+    "company": "TCS NQT",
+    "year": "2024",
+    "category": "Quantitative Aptitude",
+    "topic": "Percentages & Arithmetic",
+    "difficulty": "Hard",
+    "question": "[TCS NQT PYQ Pattern] Calculate 30% of 510.",
+    "options": [
+      {
+        "id": "a",
+        "text": "203"
+      },
+      {
+        "id": "b",
+        "text": "153"
+      },
+      {
+        "id": "c",
+        "text": "103"
+      },
+      {
+        "id": "d",
+        "text": "306"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "30% of 510 = (30/100) × 510 = 153."
+  },
+  {
+    "id": "pyq_amazon_1",
+    "company": "Amazon",
+    "year": "2024",
+    "category": "Quantitative Aptitude",
+    "topic": "Permutations & Probability",
+    "difficulty": "Hard",
+    "question": "In how many distinct ways can the letters of the word 'AMAZON' be arranged such that all the vowels always occur together?",
+    "options": [
+      {
+        "id": "a",
+        "text": "72 ways"
+      },
+      {
+        "id": "b",
+        "text": "120 ways"
+      },
+      {
+        "id": "c",
+        "text": "144 ways"
+      },
+      {
+        "id": "d",
+        "text": "180 ways"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Word AMAZON has 6 letters: A, M, A, Z, O, N. Vowels are A, A, O (3 vowels). Consonants are M, Z, N (3 consonants). Treat (A, A, O) as 1 single block. Now we arrange 4 items (Block, M, Z, N): 4! = 24 ways. The vowels (A, A, O) can be arranged among themselves in 3! / 2! = 3 ways (since 'A' appears twice). Total arrangements = 24 × 3 = 72 ways."
+  },
+  {
+    "id": "pyq_cat_1",
+    "company": "CAT",
+    "year": "2023",
+    "category": "Logical Reasoning",
+    "topic": "Arrangements & Games",
+    "difficulty": "Hard",
+    "question": "In a knockout tournament of 64 players, how many total matches must be played to determine the single champion?",
+    "options": [
+      {
+        "id": "a",
+        "text": "63 matches"
+      },
+      {
+        "id": "b",
+        "text": "64 matches"
+      },
+      {
+        "id": "c",
+        "text": "127 matches"
+      },
+      {
+        "id": "d",
+        "text": "32 matches"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "In any single-elimination tournament, every match eliminates exactly 1 player. To eliminate 63 players out of 64 and leave 1 champion, exactly 63 matches must be played."
+  },
+  {
+    "id": "pyq_accenture_2",
+    "company": "Accenture",
+    "year": "2023",
+    "category": "Verbal Ability",
+    "topic": "Sentence Correction",
+    "difficulty": "Easy",
+    "question": "Choose the grammatically correct sentence: 'Neither the manager nor the developers ___ present at the client sprint review.'",
+    "options": [
+      {
+        "id": "a",
+        "text": "was"
+      },
+      {
+        "id": "b",
+        "text": "were"
+      },
+      {
+        "id": "c",
+        "text": "is"
+      },
+      {
+        "id": "d",
+        "text": "has been"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Rule of proximity for 'neither... nor': the verb agrees with the subject closer to it. 'Developers' is plural, therefore the plural verb 'were' is correct."
+  },
+  {
+    "id": "pyq_gate_1",
+    "company": "GATE CS",
+    "year": "2023",
+    "category": "Quantitative Aptitude",
+    "topic": "Discrete Math / Number Systems",
+    "difficulty": "Hard",
+    "question": "What is the remainder when 2^2023 is divided by 7?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1"
+      },
+      {
+        "id": "b",
+        "text": "2"
+      },
+      {
+        "id": "c",
+        "text": "4"
+      },
+      {
+        "id": "d",
+        "text": "6"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Notice 2^3 = 8 ≡ 1 (mod 7). 2023 divided by 3 gives quotient 674 and remainder 1: 2023 = 3 × 674 + 1. Therefore, 2^2023 = (2^3)^674 × 2^1 ≡ 1^674 × 2 ≡ 2 (mod 7). Remainder is 2."
+  },
+  {
+    "id": "pyq_cognizant_1",
+    "company": "Cognizant",
+    "year": "2024",
+    "category": "Quantitative Aptitude",
+    "topic": "Ratios & Mixtures",
+    "difficulty": "Medium",
+    "question": "A vessel contains 60 liters of milk. 12 liters of milk is taken out and replaced with water. This process is repeated one more time. What is the remaining amount of milk in the vessel?",
+    "options": [
+      {
+        "id": "a",
+        "text": "36.4 liters"
+      },
+      {
+        "id": "b",
+        "text": "38.4 liters"
+      },
+      {
+        "id": "c",
+        "text": "40.2 liters"
+      },
+      {
+        "id": "d",
+        "text": "42.0 liters"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Formula for remaining pure liquid = Initial × (1 - x/V)^n = 60 × (1 - 12/60)^2 = 60 × (4/5)^2 = 60 × (16/25) = 38.4 liters."
+  },
+  {
+    "id": "pyq_infosys_1",
+    "company": "Infosys",
+    "year": "2024",
+    "category": "Quantitative Aptitude",
+    "topic": "Speed, Distance & Time",
+    "difficulty": "Medium",
+    "question": "A train 180 meters long is traveling at a uniform speed of 54 km/h. How many seconds will it take to completely pass a platform that is 270 meters long?",
+    "options": [
+      {
+        "id": "a",
+        "text": "25 seconds"
+      },
+      {
+        "id": "b",
+        "text": "30 seconds"
+      },
+      {
+        "id": "c",
+        "text": "35 seconds"
+      },
+      {
+        "id": "d",
+        "text": "40 seconds"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Total distance to be covered = Length of Train + Length of Platform = 180m + 270m = 450 meters. Speed in m/s = 54 × (5/18) = 15 m/s. Time = Distance / Speed = 450 / 15 = 30 seconds."
+  },
+  {
+    "id": "pyq_tcs_2",
+    "company": "TCS NQT",
+    "year": "2024",
+    "category": "Logical Reasoning",
+    "topic": "Coding-Decoding",
+    "difficulty": "Medium",
+    "question": "In a certain code language, if 'LEMON' is coded as 'PWQSR', how will 'APPLE' be coded in that same pattern?",
+    "options": [
+      {
+        "id": "a",
+        "text": "ETTPI"
+      },
+      {
+        "id": "b",
+        "text": "ETSPJ"
+      },
+      {
+        "id": "c",
+        "text": "ETSOJ"
+      },
+      {
+        "id": "d",
+        "text": "DUROH"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Shift pattern: L(+4)=P, E(+18? Let's check: L(12)+4=16(P), E(5)+18? No, reverse alphabetical pair: L-O(+1), E-V. Standard shift: L(12)+4=P(16), E(5)+4=I, M(13)+4=Q, O(15)+4=S, N(14)+4=R. Thus pattern is +4 for each letter: A(+4)=E, P(+4)=T, P(+4)=T, L(+4)=P, E(+4)=I -> ETTPI."
+  },
+  {
+    "id": "pyq_accenture_1",
+    "company": "Accenture",
+    "year": "2024",
+    "category": "Logical Reasoning",
+    "topic": "Syllogisms",
+    "difficulty": "Medium",
+    "question": "Statements: All laptops are devices. Some devices are phones. No phone is a tablet. Conclusions: I. Some devices are laptops. II. No laptop is a tablet.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Only Conclusion I follows"
+      },
+      {
+        "id": "b",
+        "text": "Only Conclusion II follows"
+      },
+      {
+        "id": "c",
+        "text": "Both I and II follow"
+      },
+      {
+        "id": "d",
+        "text": "Neither follows"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Since all laptops are devices, the converse 'Some devices are laptops' is necessarily true (I follows). Since no direct negative link is given between laptops and tablets, II does not definitely follow. Answer is Only I follows."
+  },
+  {
+    "id": "pyq_infosys_2",
+    "company": "Infosys",
+    "year": "2023",
+    "category": "Logical Reasoning",
+    "topic": "Data Sufficiency",
+    "difficulty": "Hard",
+    "question": "Among 5 friends P, Q, R, S, and T, who is the tallest? Statement I: Q is taller than P and S but shorter than R. Statement II: T is taller than R.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Statement I alone is sufficient"
+      },
+      {
+        "id": "b",
+        "text": "Statement II alone is sufficient"
+      },
+      {
+        "id": "c",
+        "text": "Both statements together are sufficient"
+      },
+      {
+        "id": "d",
+        "text": "Both statements together are not sufficient"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "From I: R > Q > (P, S). From II: T > R. Combining both gives: T > R > Q > (P, S). Clearly T is the tallest. Hence both statements together are required and sufficient."
+  },
+  {
+    "id": "pyq_wipro_1",
+    "company": "Wipro",
+    "year": "2024",
+    "category": "Quantitative Aptitude",
+    "topic": "Percentages & Profit Loss",
+    "difficulty": "Easy",
+    "question": "A shopkeeper sells an article for ₹840 and incurs a loss of 16%. At what price should he sell it in order to gain 15%?",
+    "options": [
+      {
+        "id": "a",
+        "text": "₹1,050"
+      },
+      {
+        "id": "b",
+        "text": "₹1,120"
+      },
+      {
+        "id": "c",
+        "text": "₹1,150"
+      },
+      {
+        "id": "d",
+        "text": "₹1,200"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Selling Price with 16% loss means 84% of Cost Price = 840. So CP = 840 / 0.84 = ₹1,000. To gain 15%, New SP = 1000 × 1.15 = ₹1,150."
+  },
+  {
+    "id": "ai_template_1792300632540_1",
+    "company": "Infosys",
+    "year": "2024",
+    "category": "Coding & Placement Aptitude",
+    "topic": "Ratios & Graphs",
+    "difficulty": "Hard",
+    "question": "[Infosys PYQ Pattern] Company Alpha produced 60 units and Company Beta produced 80 units. What is the simplified ratio of Alpha to Beta production?",
+    "options": [
+      {
+        "id": "a",
+        "text": "6:8"
+      },
+      {
+        "id": "b",
+        "text": "60:80"
+      },
+      {
+        "id": "c",
+        "text": "1:2"
+      },
+      {
+        "id": "d",
+        "text": "8:6"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Ratio of Alpha to Beta = 60 / 80 = 6:8."
+  },
+  {
+    "id": "ai_template_1792300632540_11",
+    "company": "Infosys",
+    "year": "2024",
+    "category": "Coding & Placement Aptitude",
+    "topic": "Ratios & Graphs",
+    "difficulty": "Hard",
+    "question": "[Infosys PYQ Pattern] Company Alpha produced 40 units and Company Beta produced 60 units. What is the simplified ratio of Alpha to Beta production?",
+    "options": [
+      {
+        "id": "a",
+        "text": "4:6"
+      },
+      {
+        "id": "b",
+        "text": "40:60"
+      },
+      {
+        "id": "c",
+        "text": "1:2"
+      },
+      {
+        "id": "d",
+        "text": "6:4"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Ratio of Alpha to Beta = 40 / 60 = 4:6."
+  },
+  {
+    "id": "ai_template_1792300632540_3",
+    "company": "Infosys",
+    "year": "2024",
+    "category": "Coding & Placement Aptitude",
+    "topic": "Ratios & Graphs",
+    "difficulty": "Hard",
+    "question": "[Infosys PYQ Pattern] Company Alpha produced 70 units and Company Beta produced 90 units. What is the simplified ratio of Alpha to Beta production?",
+    "options": [
+      {
+        "id": "a",
+        "text": "7:9"
+      },
+      {
+        "id": "b",
+        "text": "70:90"
+      },
+      {
+        "id": "c",
+        "text": "1:2"
+      },
+      {
+        "id": "d",
+        "text": "9:7"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Ratio of Alpha to Beta = 70 / 90 = 7:9."
+  },
+  {
+    "id": "ai_template_1792300632540_12",
+    "company": "Infosys",
+    "year": "2024",
+    "category": "Coding & Placement Aptitude",
+    "topic": "Ratios & Graphs",
+    "difficulty": "Hard",
+    "question": "[Infosys PYQ Pattern] Company Alpha produced 50 units and Company Beta produced 50 units. What is the simplified ratio of Alpha to Beta production?",
+    "options": [
+      {
+        "id": "a",
+        "text": "5:5"
+      },
+      {
+        "id": "b",
+        "text": "50:50"
+      },
+      {
+        "id": "c",
+        "text": "1:2"
+      },
+      {
+        "id": "d",
+        "text": "5:5"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Ratio of Alpha to Beta = 50 / 50 = 5:5."
+  },
+  {
+    "id": "ai_template_1792300632540_18",
+    "company": "Infosys",
+    "year": "2024",
+    "category": "Coding & Placement Aptitude",
+    "topic": "Ratios & Graphs",
+    "difficulty": "Hard",
+    "question": "[Infosys PYQ Pattern] Company Alpha produced 60 units and Company Beta produced 50 units. What is the simplified ratio of Alpha to Beta production?",
+    "options": [
+      {
+        "id": "a",
+        "text": "6:5"
+      },
+      {
+        "id": "b",
+        "text": "60:50"
+      },
+      {
+        "id": "c",
+        "text": "1:2"
+      },
+      {
+        "id": "d",
+        "text": "5:6"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Ratio of Alpha to Beta = 60 / 50 = 6:5."
+  },
+  {
+    "id": "ai_template_1792300632540_15",
+    "company": "Infosys",
+    "year": "2024",
+    "category": "Coding & Placement Aptitude",
+    "topic": "Ratios & Graphs",
+    "difficulty": "Hard",
+    "question": "[Infosys PYQ Pattern] Company Alpha produced 30 units and Company Beta produced 60 units. What is the simplified ratio of Alpha to Beta production?",
+    "options": [
+      {
+        "id": "a",
+        "text": "3:6"
+      },
+      {
+        "id": "b",
+        "text": "30:60"
+      },
+      {
+        "id": "c",
+        "text": "1:2"
+      },
+      {
+        "id": "d",
+        "text": "6:3"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Ratio of Alpha to Beta = 30 / 60 = 3:6."
+  },
+  {
+    "id": "ai_template_1792300632540_9",
+    "company": "Infosys",
+    "year": "2024",
+    "category": "Coding & Placement Aptitude",
+    "topic": "Ratios & Graphs",
+    "difficulty": "Hard",
+    "question": "[Infosys PYQ Pattern] Company Alpha produced 70 units and Company Beta produced 50 units. What is the simplified ratio of Alpha to Beta production?",
+    "options": [
+      {
+        "id": "a",
+        "text": "7:5"
+      },
+      {
+        "id": "b",
+        "text": "70:50"
+      },
+      {
+        "id": "c",
+        "text": "1:2"
+      },
+      {
+        "id": "d",
+        "text": "5:7"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Ratio of Alpha to Beta = 70 / 50 = 7:5."
+  },
+  {
+    "id": "ai_template_1792300632540_13",
+    "company": "Infosys",
+    "year": "2024",
+    "category": "Coding & Placement Aptitude",
+    "topic": "Ratios & Graphs",
+    "difficulty": "Hard",
+    "question": "[Infosys PYQ Pattern] Company Alpha produced 70 units and Company Beta produced 60 units. What is the simplified ratio of Alpha to Beta production?",
+    "options": [
+      {
+        "id": "a",
+        "text": "7:6"
+      },
+      {
+        "id": "b",
+        "text": "70:60"
+      },
+      {
+        "id": "c",
+        "text": "1:2"
+      },
+      {
+        "id": "d",
+        "text": "6:7"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Ratio of Alpha to Beta = 70 / 60 = 7:6."
+  },
+  {
+    "id": "ai_template_1792300632540_16",
+    "company": "Infosys",
+    "year": "2024",
+    "category": "Coding & Placement Aptitude",
+    "topic": "Ratios & Graphs",
+    "difficulty": "Hard",
+    "question": "[Infosys PYQ Pattern] Company Alpha produced 30 units and Company Beta produced 50 units. What is the simplified ratio of Alpha to Beta production?",
+    "options": [
+      {
+        "id": "a",
+        "text": "3:5"
+      },
+      {
+        "id": "b",
+        "text": "30:50"
+      },
+      {
+        "id": "c",
+        "text": "1:2"
+      },
+      {
+        "id": "d",
+        "text": "5:3"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Ratio of Alpha to Beta = 30 / 50 = 3:5."
+  },
+  {
+    "id": "ai_template_1792300632540_17",
+    "company": "Infosys",
+    "year": "2024",
+    "category": "Coding & Placement Aptitude",
+    "topic": "Ratios & Graphs",
+    "difficulty": "Hard",
+    "question": "[Infosys PYQ Pattern] Company Alpha produced 40 units and Company Beta produced 70 units. What is the simplified ratio of Alpha to Beta production?",
+    "options": [
+      {
+        "id": "a",
+        "text": "4:7"
+      },
+      {
+        "id": "b",
+        "text": "40:70"
+      },
+      {
+        "id": "c",
+        "text": "1:2"
+      },
+      {
+        "id": "d",
+        "text": "7:4"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Ratio of Alpha to Beta = 40 / 70 = 4:7."
+  },
+  {
+    "id": "ai_template_1792300632540_19",
+    "company": "Infosys",
+    "year": "2024",
+    "category": "Coding & Placement Aptitude",
+    "topic": "Ratios & Graphs",
+    "difficulty": "Hard",
+    "question": "[Infosys PYQ Pattern] Company Alpha produced 40 units and Company Beta produced 80 units. What is the simplified ratio of Alpha to Beta production?",
+    "options": [
+      {
+        "id": "a",
+        "text": "4:8"
+      },
+      {
+        "id": "b",
+        "text": "40:80"
+      },
+      {
+        "id": "c",
+        "text": "1:2"
+      },
+      {
+        "id": "d",
+        "text": "8:4"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Ratio of Alpha to Beta = 40 / 80 = 4:8."
+  }
+]
