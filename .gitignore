@@ -35,3 +35,6 @@ Thumbs.db
 *.njsproj
 *.sln
 *.sw?
+
+# Codomax Internship Portfolio (Separate Project)
+Codomax_Portfolio/
