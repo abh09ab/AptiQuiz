@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Codomax Digital Internship — Master Portfolio Hub | Abhay Srivastava</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    :root {
+      --bg: #090d16;
+      --card-bg: rgba(22, 30, 49, 0.85);
+      --card-border: rgba(255, 255, 255, 0.08);
+      --primary: #6366f1;
+      --primary-hover: #4f46e5;
+      --accent: #10b981;
+      --gold: #f59e0b;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+    /* TOP NAVBAR */
+    .top-header {
+      background: rgba(15, 23, 42, 0.95);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--card-border);
+      padding: 12px 24px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .brand-group {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .brand-logo {
+      width: 38px;
+      height: 38px;
+      background: linear-gradient(135deg, #6366f1, #10b981);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+      color: #fff;
+      font-weight: 800;
+    }
+    .brand-text h1 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+    .brand-text p {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+    .device-controls {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(0, 0, 0, 0.3);
+      padding: 4px;
+      border-radius: 8px;
+      border: 1px solid var(--card-border);
+    }
+    .device-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+    }
+    .device-btn.active, .device-btn:hover {
+      background: var(--primary);
+      color: #fff;
+    }
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .btn-action {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 14px;
+      border-radius: 8px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      text-decoration: none;
+      border: 1px solid var(--card-border);
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--text);
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .btn-action:hover {
+      background: rgba(255, 255, 255, 0.1);
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+    .btn-action.highlight {
+      background: linear-gradient(135deg, #6366f1, #4f46e5);
+      border: none;
+      color: #fff;
+    }
+
+    /* MODULE TABS BAR */
+    .tabs-bar {
+      background: rgba(11, 15, 25, 0.95);
+      border-bottom: 1px solid var(--card-border);
+      padding: 8px 24px;
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+    .tabs-bar::-webkit-scrollbar {
+      display: none;
+    }
+    .tab-item {
+      white-space: nowrap;
+      padding: 8px 16px;
+      border-radius: 8px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      background: transparent;
+      border: 1px solid transparent;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.2s ease;
+    }
+    .tab-item:hover {
+      color: var(--text);
+      background: rgba(255, 255, 255, 0.04);
+    }
+    .tab-item.active {
+      color: #fff;
+      background: rgba(99, 102, 241, 0.15);
+      border-color: rgba(99, 102, 241, 0.4);
+    }
+    .tab-item.graduation.active {
+      color: #fbbf24;
+      background: rgba(245, 158, 11, 0.15);
+      border-color: rgba(245, 158, 11, 0.4);
+    }
+
+    /* MAIN PREVIEW CONTAINER */
+    .preview-wrapper {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 16px;
+      background: radial-gradient(circle at 50% 50%, rgba(99, 102, 241, 0.05) 0%, transparent 60%);
+    }
+    .iframe-container {
+      width: 100%;
+      max-width: 100%;
+      height: calc(100vh - 140px);
+      background: #0f172a;
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+      transition: width 0.3s ease;
+    }
+    .iframe-container.tablet {
+      width: 768px;
+    }
+    .iframe-container.mobile {
+      width: 400px;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="top-header">
+    <div class="brand-group">
+      <div class="brand-logo"><i class="fa-solid fa-code"></i></div>
+      <div class="brand-text">
+        <h1>Abhay Srivastava — Codomax Internship Suite</h1>
+        <p>Interactive Runner for Modules 1 to 7 · Ready for Dashboard Submission</p>
+      </div>
+    </div>
+
+    <!-- DEVICE RESPONSIVE SIMULATOR -->
+    <div class="device-controls">
+      <button class="device-btn active" id="btnDesktop" onclick="setDevice('desktop')">
+        <i class="fa-solid fa-desktop"></i> Desktop
+      </button>
+      <button class="device-btn" id="btnTablet" onclick="setDevice('tablet')">
+        <i class="fa-solid fa-tablet-screen-button"></i> Tablet (768px)
+      </button>
+      <button class="device-btn" id="btnMobile" onclick="setDevice('mobile')">
+        <i class="fa-solid fa-mobile-screen"></i> Mobile (400px)
+      </button>
+    </div>
+
+    <!-- ACTIONS -->
+    <div class="header-actions">
+      <a href="https://github.com/abh09ab/AptiQuiz" target="_blank" class="btn-action">
+        <i class="fa-brands fa-github"></i> GitHub Repo
+      </a>
+      <a href="https://codomaxdigital.in/internship/dashboard" target="_blank" class="btn-action highlight">
+        <i class="fa-solid fa-arrow-up-right-from-square"></i> Codomax Dashboard
+      </a>
+      <a id="btnExternal" href="Module_6_Final_Portfolio/index.html" target="_blank" class="btn-action">
+        <i class="fa-solid fa-up-right-and-down-left-from-center"></i> Fullscreen
+      </a>
+    </div>
+  </header>
+
+  <!-- MODULE NAVIGATION TABS -->
+  <nav class="tabs-bar">
+    <button class="tab-item" onclick="switchModule('Module_1_Structure/index.html', this)">
+      <i class="fa-solid fa-layer-group"></i> Module 1: Structure
+    </button>
+    <button class="tab-item" onclick="switchModule('Module_2_Responsive/index.html', this)">
+      <i class="fa-solid fa-mobile-screen"></i> Module 2: Responsive
+    </button>
+    <button class="tab-item" onclick="switchModule('Module_3_JavaScript/index.html', this)">
+      <i class="fa-solid fa-bolt"></i> Module 3: JavaScript
+    </button>
+    <button class="tab-item" onclick="switchModule('Module_4_Projects_Resume/index.html', this)">
+      <i class="fa-solid fa-briefcase"></i> Module 4: Projects &amp; Resume
+    </button>
+    <button class="tab-item" onclick="switchModule('Module_5_Contact_Deployment/index.html', this)">
+      <i class="fa-solid fa-cloud-arrow-up"></i> Module 5: Contact &amp; Deploy
+    </button>
+    <button class="tab-item active" onclick="switchModule('Module_6_Final_Portfolio/index.html', this)">
+      <i class="fa-solid fa-star"></i> Module 6: Final Capstone
+    </button>
+    <button class="tab-item graduation" onclick="switchModule('Module_7_Milestone_Submission_Kit/index.html', this)">
+      <i class="fa-solid fa-graduation-cap"></i> Module 7: Submission Hub
+    </button>
+  </nav>
+
+  <!-- LIVE EMBEDDED PREVIEW -->
+  <main class="preview-wrapper">
+    <div class="iframe-container" id="frameBox">
+      <iframe id="previewFrame" src="Module_6_Final_Portfolio/index.html" title="Codomax Portfolio Preview"></iframe>
+    </div>
+  </main>
+
+  <script>
+    const frame = document.getElementById("previewFrame");
+    const frameBox = document.getElementById("frameBox");
+    const externalLink = document.getElementById("btnExternal");
+
+    function switchModule(url, btn) {
+      frame.src = url;
+      externalLink.href = url;
+      document.querySelectorAll(".tab-item").forEach(t => t.classList.remove("active"));
+      btn.classList.add("active");
+    }
+
+    function setDevice(type) {
+      frameBox.className = "iframe-container " + (type === 'desktop' ? '' : type);
+      document.querySelectorAll(".device-btn").forEach(b => b.classList.remove("active"));
+      if (type === 'desktop') document.getElementById("btnDesktop").classList.add("active");
+      if (type === 'tablet') document.getElementById("btnTablet").classList.add("active");
+      if (type === 'mobile') document.getElementById("btnMobile").classList.add("active");
+    }
+  </script>
+</body>
+</html>
